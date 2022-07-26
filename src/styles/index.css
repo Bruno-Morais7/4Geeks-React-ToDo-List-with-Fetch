@@ -1,12 +1,60 @@
+::placeholder {
+    color: rgb(152, 152, 152);
+}
 
-/* 
+.list-group-item {
+    padding-left: 60px;
+    color: rgb(152, 152, 152);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.noPaddingLeft {
+    padding-left: 20px;
+    color: rgb(209, 209, 209);
+}
 
-*/
+span {
+    color:pink;
+    font-weight:100;
+    font-size: 100px;
+}
+.btn {
+    display: none;
+}
+
+/*.btn:hover {
+    color: rgb(226, 151, 164);
+}*/
+
+.hoverButton:hover > .btn {
+    color: pink;
+    display: block;
+}
+
+.bottom {
+    height: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0;
+}
+
+.bottom-leaf {
+    height: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 0;
+}
+.bottom-last {
+    height: 5px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 0;
+}
+
+.dangerButton {
+    border-color: pink;
+    color: rgb(252, 137, 156);
+    font-weight:00;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 7px;
+}
